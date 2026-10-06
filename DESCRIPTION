@@ -1,0 +1,19 @@
+Package: marronniers
+Type: Package
+Title: Calendrier éditorial français (marronniers) 2026-2027
+Version: 0.1.0
+Authors@R: person("Les Créavores", role = c("aut", "cre", "cph"), email = "contact@lescreavores.fr")
+Description: Les dates qui reviennent chaque année dans la presse et chez les
+    marques françaises, de septembre 2026 à décembre 2027 : jours fériés, fêtes,
+    temps forts commerciaux, journées mondiales, vacances scolaires et soldes.
+    Chaque entrée indique ses secteurs, sa source et une idée de publication.
+    Données de l'outil en ligne de Les Créavores, sans dépendance.
+License: MIT + file LICENSE
+URL: https://lescreavores.fr/outils/generateur-calendrier-editorial/, https://github.com/tresor4k/marronniers-r
+BugReports: https://github.com/tresor4k/marronniers-r/issues
+Language: fr
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5)
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
